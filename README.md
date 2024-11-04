@@ -29,7 +29,7 @@ XMODIFIERS=@im=fcitx
 ```
 
 ### SDDM-themes
-My preferred SDDM-theme is `Sugar Candy/Dark`, which you can download through the KDE's SDDM settings. This theme needs a few dependencies: `sudo pacman -S --needed qt5‑graphicaleffect qt5‑quickcontrols2 qt5‑svg`
+My preferred SDDM-theme is `Sugar Candy/Dark`, which you can download through the KDE's SDDM settings. This theme needs a few dependencies: `sudo pacman -S --needed qt5-graphicaleffects qt5-quickcontrols2 qt5-svg`
 
 ### SDDM-fixes
 You can change the refresh rate and primary monitor in SDDM. Edit the file /usr/share/sddm/scripts/Xsetup as sudo and add in the lines:
