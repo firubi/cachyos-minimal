@@ -1,6 +1,9 @@
 # CachyOS-minimal
 In order to install a minimal KDE-desktop, deselect everything except `plasma-desktop`, `sddm` and `sddm-kcm`. Remove any other program you see fit. Switch from paru to yay :)
 
+##
+I recommend only using ananicy rules and bluetooth. I've had issues with high ram usage and firefox reporting running out of disk space with profile-sync-daemon enabled. 
+
 ## Basic KDE functionality
 - `sudo pacman -S --needed kscreen dolphin breeze-gtk kde-gtk-config kate plasma-pa plasma-nm plasma-systemmonitor bluedevil ark qt5-wayland`
 
