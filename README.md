@@ -47,7 +47,7 @@ Make sure to make a snapshot before installing apparmor. See installation guide 
 
 ## Hyprland with HyprPanel
 - Install `bun`
-- `yay -S --needed hyprland hyprlock jq swww waypaper tofi qt5ct qt6ct-kde xdg-desktop-portal-hyprland grim slurp pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl hyprpicker aylurs-gtk-shell python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs`
+- `yay -S --needed hyprland hyprlock jq swww waypaper tofi qt5ct qt6ct-kde xdg-desktop-portal-hyprland grim slurp pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl hyprpicker aylurs-gtk-shell python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs libdbusmenu-gtk3`
 - Follow the instructions [here](https://hyprpanel.com/getting_started/installation.html)
   
 
