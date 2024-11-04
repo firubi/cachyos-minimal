@@ -39,5 +39,5 @@ xrandr --output HDMI-0 --brightness 0
 ```
 You can get the numbers from running `xrandr | grep -w connected` while in an **X-session**.
 
-#### Anki
+### Anki
 After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.conf, and put it in ~/.local/share/Anki2/ so Anki reads it.
