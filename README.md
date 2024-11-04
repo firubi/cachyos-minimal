@@ -46,7 +46,7 @@ You can get the numbers from running `xrandr | grep -w connected` while in an **
 After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.conf, and put it in ~/.local/share/Anki2/ so Anki reads it.
 
 ## Apparmor
-If you'd like Apparmor. Make sure to make a snapshot before installing apparmor. See installation guide [here](https://wiki.cachyos.org/configuration/post_install_setup/#4-enable-apparmor-support-using-apparmord-profiles). I personally don't bother with this. 
+If you'd like Apparmor. Make sure to make a snapshot before installing apparmor. See installation guide [here](https://wiki.cachyos.org/configuration/post_install_setup/#4-enable-apparmor-support-using-apparmord-profiles). I personally don't bother with this. It does slightly increase RAM usage.
 
 ## Hyprland with HyprPanel
 - Install `bun`
