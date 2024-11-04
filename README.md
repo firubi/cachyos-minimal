@@ -46,9 +46,8 @@ After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.c
 Make sure to make a snapshot before installing apparmor. See installation guide [here](https://wiki.cachyos.org/configuration/post_install_setup/#4-enable-apparmor-support-using-apparmord-profiles).
 
 ## Hyprland with HyprPanel
+- Install `bun`
 - `yay -S hyprland hyprlock jq swww waypaper tofi qt5ct qt6ct-kde xdg-desktop-portal-hyprland grim slurp pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl hyprpicker aylurs-gtk-shell python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs`
-- `curl -fsSL https://bun.sh/install | bash && \
-  sudo ln -s $HOME/.bun/bin/bun /usr/local/bin/bun`
 - Follow the instructions [here](https://hyprpanel.com/getting_started/installation.html)
   
 
