@@ -10,6 +10,7 @@ In the CachyOS Hello app, enable snapper support, and in addition install `sudo 
 ## Remove some more bloat
 - Make sure to switch to bash `chsh -s /usr/bin/bash`
 - `sudo pacman -Rns  fish cachyos-fish-config fish-autopair fish-pure-prompt fisher konsole`
+- Reboot
 
 ## Personal packages for me
 - Install `cachyos-gaming-meta`
