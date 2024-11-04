@@ -41,3 +41,10 @@ You can get the numbers from running `xrandr | grep -w connected` while in an **
 
 ### Anki
 After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.conf, and put it in ~/.local/share/Anki2/ so Anki reads it.
+
+## Basic maintenance
+- `sudo pacman -Syu` - to update
+- `sudo pacman -Rns` - to remove package
+- `sudo pacman -Rns $(pacman -Qdtq)` - to remove orphans (does also remove some make dependencies for AUR and tkg)
+- `paccache -r` - to remove previous versions of packages, but keep the latest 3
+- `paccache -ruk0` - to remove previous versions of uninstalled packages
