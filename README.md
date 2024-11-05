@@ -18,7 +18,7 @@ In the CachyOS Hello app, enable snapper support, and in addition install `sudo 
 ## Personal packages for me
 - Install `cachyos-gaming-meta`
 - `sudo pacman -S --needed gnome-disk-utility fastfetch fcitx5 fcitx5-configtool fcitx5-mozc mpv flatpak xdg-desktop-portal-gtk filelight nvidia-settings kitty`
-- `flatpak install flathub net.davidotek.pupgui2 dev.vencord.Vesktop org.keepassxc.KeePassXC org.qbittorrent.qBittorrent org.ryujinx.Ryujinx com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.fooyin.fooyin org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.kde.kdenlive org.kde.okular org.kde.gwenview`
+- `flatpak install flathub net.davidotek.pupgui2 dev.vencord.Vesktop org.keepassxc.KeePassXC org.qbittorrent.qBittorrent org.ryujinx.Ryujinx com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.fooyin.fooyin org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.kde.kdenlive`
 
 
 
