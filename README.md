@@ -5,7 +5,7 @@ In order to install a minimal KDE-desktop, deselect everything except `plasma-de
 I recommend only using ananicy rules and bluetooth. I've had issues with high ram usage (when browser is not even up) and Firefox reporting running out of disk space with profile-sync-daemon enabled. 
 
 ## Basic KDE functionality
-- `sudo pacman -S --needed kscreen dolphin breeze-gtk kde-gtk-config kate plasma-pa plasma-nm plasma-systemmonitor bluedevil ark qt5-wayland`
+- `sudo pacman -S --needed kscreen dolphin breeze-gtk kde-gtk-config kate kdegraphics-thumbnailers plasma-pa plasma-nm plasma-systemmonitor bluedevil ark qt5-wayland`
 
 ## Enable btrfs-snapper support
 In the CachyOS Hello app, enable snapper support, and in addition install `sudo pacman -S --needed grub-btrfs grub-btrfs-support` and enable the service `sudo systemctl enable --now grub-btrfsd`.
