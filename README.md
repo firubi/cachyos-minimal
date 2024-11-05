@@ -57,6 +57,7 @@ If you'd like Apparmor. Make sure to make a snapshot before installing apparmor.
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
 - `sudo pacman -Rns` - to remove package
+- `pacman -Qq | wc -l` - to show package count
 - `sudo pacman -Rns $(pacman -Qdtq)` - to remove orphans (does also remove some make dependencies for AUR and tkg)
 - `paccache -r` - to remove previous versions of packages, but keep the latest 3
 - `paccache -ruk0` - to remove previous versions of uninstalled packages
