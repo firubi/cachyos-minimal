@@ -52,7 +52,9 @@ Make sure to make a snapshot before installing apparmor. See installation guide 
 - Install `bun`
 - `yay -S --needed hyprland hyprlock jq swww waypaper tofi qt5ct qt6ct-kde xdg-desktop-portal-hyprland grim slurp pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl hyprpicker aylurs-gtk-shell python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs libdbusmenu-gtk3 archlinux-xdg-menu`
 - Follow the instructions [here](https://hyprpanel.com/getting_started/installation.html)
-  
+
+- If you want to uninstall: `yay -Rns hyprland hyprlock swww waypaper tofi qt5ct qt6ct-kde xdg-desktop-portal-hyprland grim slurp libgtop dart-sass wl-clipboard brightnessctl hyprpicker aylurs-gtk-shell gnome-bluetooth-3.0 gvfs libdbusmenu-gtk3 archlinux-xdg-menu`, then remove orhpans `sudo pacman -Rns $(pacman -Qdtq)`.
+- Uninstall `bun`, instructions [here](https://bun.sh/docs/installation).
 
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
