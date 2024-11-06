@@ -56,6 +56,9 @@ Make sure to make a snapshot before installing apparmor. See installation guide 
 - If you want to uninstall: `yay -Rns hyprland hyprlock swww waypaper tofi qt5ct qt6ct-kde xdg-desktop-portal-hyprland grim slurp libgtop dart-sass wl-clipboard brightnessctl hyprpicker aylurs-gtk-shell gnome-bluetooth-3.0 gvfs libdbusmenu-gtk3 archlinux-xdg-menu`, then remove orhpans `sudo pacman -Rns $(pacman -Qdtq)`.
 - Uninstall `bun`, instructions [here](https://bun.sh/docs/installation).
 
+## Simple Hyprland
+- `yay -S hyprland waybar hyprlock swww waypaper tofi qt6ct-kde xdg-desktop-portal-hyprland grim slurp wl-clipboard archlinux-xdg-menu`
+
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
 - `sudo pacman -Rns` - to remove package
