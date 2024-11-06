@@ -57,7 +57,7 @@ Make sure to make a snapshot before installing apparmor. See installation guide 
 - Uninstall `bun`, instructions [here](https://bun.sh/docs/installation).
 
 ## Simple Hyprland
-- `yay -S hyprland waybar hyprlock swww waypaper tofi qt6ct-kde xdg-desktop-portal-hyprland grim slurp wl-clipboard archlinux-xdg-menu`
+- `yay -S hyprland waybar hyprlock swww waypaper swaync tofi qt6ct-kde xdg-desktop-portal-hyprland grim slurp wl-clipboard archlinux-xdg-menu`
 
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
