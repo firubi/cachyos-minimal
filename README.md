@@ -5,7 +5,7 @@ In order to install a minimal KDE-desktop, deselect everything except `plasma-de
 I recommend only using ananicy rules and bluetooth. I've had issues with high ram usage (when browser is not even up) and Firefox reporting running out of disk space with profile-sync-daemon enabled. 
 
 ## Basic KDE functionality
-- `sudo pacman -S --needed kscreen dolphin breeze-gtk kde-gtk-config ffmpegthumbs kdegraphics-thumbnailers kate plasma-pa plasma-nm plasma-systemmonitor bluedevil ark zathura zathura-pdf-poppler`
+- `sudo pacman -S --needed kscreen dolphin breeze-gtk kde-gtk-config ffmpegthumbs kdegraphics-thumbnailers kate plasma-pa plasma-nm bluedevil ark zathura zathura-pdf-poppler`
 
 ## Enable btrfs-snapper support
 In the CachyOS Hello app, enable snapper support, and in addition install `sudo pacman -S --needed grub-btrfs grub-btrfs-support` and enable the service `sudo systemctl enable --now grub-btrfsd`.
@@ -17,8 +17,8 @@ In the CachyOS Hello app, enable snapper support, and in addition install `sudo 
 
 ## Personal packages for me
 - Install gaming packages, either `cachyos-gaming-meta` or `yay -S steam gamescope mangohud goverlay`
-- `sudo pacman -S --needed gnome-disk-utility fastfetch fcitx5 fcitx5-configtool fcitx5-mozc mpv flatpak xdg-desktop-portal-gtk filelight nvidia-settings kitty`
-- `flatpak install flathub net.davidotek.pupgui2 dev.vencord.Vesktop org.keepassxc.KeePassXC org.qbittorrent.qBittorrent org.ryujinx.Ryujinx com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.fooyin.fooyin org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.kde.kdenlive org.kde.gwenview`
+- `sudo pacman -S --needed fastfetch fcitx5 fcitx5-configtool fcitx5-mozc mpv flatpak xdg-desktop-portal-gtk nvidia-settings kitty`
+- `flatpak install flathub com.vysp3r.ProtonPlus dev.vencord.Vesktop org.keepassxc.KeePassXC org.qbittorrent.qBittorrent org.ryujinx.Ryujinx com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.fooyin.fooyin org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.kde.kdenlive org.kde.gwenview`
 
 
 
@@ -49,8 +49,6 @@ After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.c
 Make sure to make a snapshot before installing apparmor. See installation guide [here](https://wiki.cachyos.org/configuration/post_install_setup/#4-enable-apparmor-support-using-apparmord-profiles). It does slightly increase RAM usage - an increase of about ~800Mb for me. I personally don't use this as it blocks thumbnail generation in Dolphin (I'm sure you could edit this out but I won't bother). 
 
 ## Hyprland with HyprPanel
-- Install `bun`
-- `yay -S --needed hyprland hyprlock jq swww waypaper tofi qt5ct qt6ct-kde xdg-desktop-portal-hyprland grim slurp pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl hyprpicker aylurs-gtk-shell python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs libdbusmenu-gtk3 archlinux-xdg-menu`
 - Follow the instructions [here](https://hyprpanel.com/getting_started/installation.html)
 
 - If you want to uninstall: `yay -Rns hyprland hyprlock swww waypaper tofi qt5ct qt6ct-kde xdg-desktop-portal-hyprland grim slurp libgtop dart-sass wl-clipboard brightnessctl hyprpicker aylurs-gtk-shell gnome-bluetooth-3.0 gvfs libdbusmenu-gtk3 archlinux-xdg-menu`, then remove orhpans `sudo pacman -Rns $(pacman -Qdtq)`.
@@ -58,6 +56,8 @@ Make sure to make a snapshot before installing apparmor. See installation guide 
 
 ## Simple Hyprland
 - `yay -S hyprland waybar hyprlock swww waypaper swaync tofi qt6ct-kde xdg-desktop-portal-hyprland grim slurp wl-clipboard archlinux-xdg-menu`
+![image](https://github.com/user-attachments/assets/c2029f9e-7b98-442c-af29-77e606797352)
+
 
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
